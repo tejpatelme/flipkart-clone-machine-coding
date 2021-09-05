@@ -73,9 +73,13 @@ export default function ProductListing({ sortAndFilter }) {
 
   return (
     <div className="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl px-14 py-12 bg-white ml-4 w-full">
-      {filteredProducts.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))}
+      {filteredProducts.length === 0 ? (
+        <div>No products match your criteria</div>
+      ) : (
+        filteredProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))
+      )}
     </div>
   );
 }
