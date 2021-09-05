@@ -19,7 +19,10 @@ export default function ProductCard({ product }) {
           ₹{product.price}
         </span>
         <span className="block text-sm font-semibold text-gray-500">
-          Size <span className="font-base text-gray-800">{product.size}</span>
+          Size{" "}
+          <span className="font-base text-gray-800">
+            {product.size.map((size, idx) => (idx === 0 ? size : `,${size}`))}
+          </span>
         </span>
       </div>
     </div>

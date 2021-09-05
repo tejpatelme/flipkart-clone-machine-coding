@@ -38,9 +38,22 @@ export default function ProductListing({ sortAndFilter }) {
       return filteredByBrand;
     }
 
-    return filteredByBrand.filter((product) =>
-      sizesSelected.find((sizes) => sizes === product.size) ? true : false
-    );
+    let arr = [];
+
+    sizesSelected.forEach((size) => {
+      let hasSize;
+      filteredByBrand.forEach((product) => {
+        hasSize = product.size.includes(size);
+        hasSize && arr.push(product);
+      });
+    });
+
+    arr = arr.filter((item, index) => arr.indexOf(item) === index);
+
+    return arr;
+    // return filteredByBrand.filter((product) =>
+    //   sizesSelected.find((sizes) => sizes === product.size) ? true : false
+    // );
   };
 
   const filterByIdealFor = (filteredBySizes) => {
