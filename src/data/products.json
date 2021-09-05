@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Striped Men Round Neck Yellow, Black T-Shirt",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kklhbbk0/t-shirt/n/b/o/l-raw-327-mustard-rawhit-original-imafzwzzwx6yybaq.jpeg?q=50",
+    "brand": "Rawhit",
+    "price": 272,
+    "size": "XL",
+    "idealFor": "Men"
+  },
+  {
+    "id": 2,
+    "name": "Solid Men Mandarin Collar Green T-Shirt",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kf75fgw0-0/t-shirt/f/6/j/xxl-t325-pwgh-seven-rocks-original-imafvpbgf6nchmfj.jpeg?q=50",
+    "brand": "Seven Rocks",
+    "price": 262,
+    "size": "L",
+    "idealFor": "Men"
+  },
+  {
+    "id": 3,
+    "name": "Color Block Women Round Neck Multicolor T-Shirt",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kfoapow0-0/t-shirt/w/o/n/s-2907-the-dry-state-original-imafw2gxuntfkzfy.jpeg?q=50",
+    "brand": "Seven Rocks",
+    "price": 332,
+    "size": "M",
+    "idealFor": "Women"
+  },
+  {
+    "id": 4,
+    "name": "Color Block Women Round Neck Multicolor T-Shirt With Mask",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kcz4rrk0/t-shirt/c/n/o/xxl-kttwomenstshirt47-kotty-original-imaftzkqf9mzunzf.jpeg?q=50",
+    "brand": "KOTTY",
+    "price": 254,
+    "size": "S",
+    "idealFor": "Women"
+  },
+  {
+    "id": 5,
+    "name": "Printed Men Round Neck Dark Green T-Shirt",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kf5pzm80-0/t-shirt/2/v/v/xl-aopleaffull-drgreen-urbano-fashion-original-imafvzqqbfbfvprv.jpeg?q=50",
+    "brand": "Urbano Fashion",
+    "price": 399,
+    "size": "M",
+    "idealFor": "Men"
+  },
+  {
+    "id": 6,
+    "name": "Solid Men Polo Neck Grey T-Shirt",
+    "imageURL": "https://rukminim1.flixcart.com/image/800/960/kfk0e4w0-0/t-shirt/w/d/5/l-cfpgreymilange-fleximaa-original-imafvzez6zf9y2gw.jpeg?q=50",
+    "brand": "FLEXIMAA",
+    "price": 352,
+    "size": "L",
+    "idealFor": "Men"
+  }
+]
