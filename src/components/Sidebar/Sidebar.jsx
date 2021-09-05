@@ -5,11 +5,10 @@ import SidebarCaption from "../SidebarCaption/SidebarCaption";
 export default function Sidebar({ setSortAndFilter, sortAndFilter }) {
   const { products } = useProducts();
   const { price, brandsSelected, sizesSelected, idealFor } = sortAndFilter;
+  const sizes = ["S", "M", "L", "XL"];
 
   let brands = products.map((product) => product.brand);
   brands = brands.filter((item, index) => brands.indexOf(item) === index);
-  let sizes = products.map((product) => product.size);
-  sizes = sizes.filter((item, index) => sizes.indexOf(item) === index);
   let ideal = products.map((product) => product.idealFor);
   ideal = ideal.filter((item, index) => ideal.indexOf(item) === index);
 
